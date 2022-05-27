@@ -8,16 +8,16 @@ public class Main {
 		
 		ArrayList<Pessoa> pessoas = new ArrayList<Pessoa>();
 		
-			Estudante estudante1 = new Estudante("Luan", " Rua Batista da Mota");
+			Estudante estudante1 = new Estudante("Thiago", " Rua Papagaio");
 			estudante1.addCursoNota("Matematica", 8);
 			estudante1.addCursoNota("Informatica", 9);
 			
-			Estudante estudante2 = new Estudante("Noemia", " Rua Paes de Andrade");
+			Estudante estudante2 = new Estudante("Cleide", " Rua Santos Drumont");
 			estudante2.addCursoNota("Historia", 7);
 			estudante2.addCursoNota("Biologia", 8);
 			estudante2.addCursoNota("Informatica", 9);
 			
-			Estudante estudante3 = new Estudante("Joyce", " Rua Narizinho");
+			Estudante estudante3 = new Estudante("Diego", " Rua Emilia");
 			estudante3.addCursoNota("Historia", 9);
 			estudante3.addCursoNota("Matematica", 7);
 			estudante3.addCursoNota("Informatica", 6);
@@ -26,11 +26,11 @@ public class Main {
 			pessoas.add(estudante2);
 			pessoas.add(estudante3);
 
-			Professor  professor1 = new Professor("Vicente", " Rua Paisandu");
+			Professor  professor1 = new Professor("José", " Rua Bartolomeu");
 			professor1.addCurso("matematica");
 			professor1.addCurso("biologia");
 			
-			Professor professor2 = new Professor("F�bio", " Rua Santa Monica");
+			Professor professor2 = new Professor("Lucas", " Rua Vitória");
 			professor2.addCurso("informatica");
 			professor2.addCurso("historia");
 			
